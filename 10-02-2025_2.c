@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 int main()
@@ -27,6 +28,9 @@ int main()
             break;
         case 7:
             printf("Sábado\n");
+            break;
+        default:
+            printf("Seu jumento ambulante, esse dia não existe, parece que tem o cerebro de uma capivara\n");
             break;
     }
 
